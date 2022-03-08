@@ -1,8 +1,121 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <%- include('./partials/head.ejs') %>
-<link rel="stylesheet" href="#">
+<link rel="stylesheet" href="/postpage.css">
 <body>
-<p class = " okay">post page</p>
+<%- include('./partials/navbar.ejs') %>
+<div class="title">
+    Home Title
+</div>
+<div class="image-container">
+    <img class="mock-image" src="/images/mock.png" alt="mock">
+</div>
+<div class="details-container">
+    <div class="details-left">
+        <div class="contact">
+            <div class="contact-head">
+                Contact Now
+            </div>
+            <div class="contact-content">
+                <div class="content-phone">
+                    <img src="/images/phone-icon.svg" alt="phone">
+                    +91 8097178433
+                </div>
+                <br>
+                <div class="content-mail">
+                    <img src="/images/mail-icon.svg" alt="mail">
+                    san162002@gmail.com
+                </div>
+            </div>
+        </div>
+        <div class="price">
+            <div class="price-head">
+                Price
+            </div>
+            <div class="price-content">
+                ₹2000/night
+            </div>
+        </div>
+        <div class="facilities">
+            <div class="facilities-head">
+                Facilities
+            </div>
+            <div class="facilities-content">
+                <% for (let i =0; i<6; i++) { %>
+                <div class="facility">
+                    <% for (let i =0; i < 2; i++) { %>
+                    <img src="/images/tick.svg" alt="tick">
+                    <div class="facility-text">
+                    okay
+                    </div>
+                    <% } %>
+                </div>
+                <% } %>
+            </div>
+        </div>
+        <div class="message-owner">
+            <div class="message-head">
+                Message From Owner
+            </div>
+            <div class="message-content">
+                Lorem Ipsum Dopsum Gypsum lupsum xupsum apsum
+            </div>
+        </div>
+    </div>
+    <div class="details-right">
+        <div class="avail-max-row">
+            <div class="availability">
+                <div class="availability-head">
+                    <img src="/images/tick.svg" alt="">
+                    Availability
+                </div>
+                <div class="availability-content">
+                    Yes
+                </div>
+            </div>
+            <div class="max-count">
+                <div class="max-head">
+                    <img src="/images/multi-people.svg" alt="icon">
+                    Max Count
+                </div>
+                <div class="max-content">
+                    5 people + 2 pets
+                </div>
+            </div>
+        </div>
+        <div class="overall-ratings">
+            <div class="ratings-head">
+                Overall Ratings
+            </div>
+            <div class="overall-content">
+                <% for (let i =0; i<5; i++) { %>
+                <img src="/images/star-white.svg" alt="stars">
+                <% } %>
+            </div>
+        </div>
+        <div class="reviews">
+            <div class="reviews-head">
+                Reviews
+            </div>
+            <div class="reviews-content">
+                <% for (let i = 0; i<2; i++) { %>
+                <div class="review">
+                    <div class="review-top">   
+                        John Gill
+                        <% for (let i =0; i<5; i++) { %>
+                            <img class="star" src="/images/star-white.svg" alt="stars">
+                        <% } %>
+                    </div>
+                    <div class="review-bottom"></div>
+                    Great Stay ! Totally Recommended! Awesome service.
+                    </div>
+                </div>
+                <% } %>
+            </div>
+        </div>
+    </div>
+</div>
+
 </body>
 </html>

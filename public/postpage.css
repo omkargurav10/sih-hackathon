@@ -1,0 +1,212 @@
+body {
+    background-color: #152238;
+    color: #FBF7F7;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.title {
+    display: flex;
+    background-color: #111D2E;
+    margin: 2rem 3rem;
+    padding: 1rem 2rem;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ .mock-image {
+    border-radius: 20px;
+    max-width: 1200px;
+} 
+
+.details-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 5rem;
+}
+
+.details-left {
+display: flex;
+flex-direction: column;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0rem;
+}
+
+.contact-head {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.contact-content {
+    color: #A7A7A7;
+    flex-direction: column;
+    
+}
+
+.content-mail  {
+    display: flex;
+    align-items: center;
+
+}
+
+.content-phone { 
+    display: flex;
+    align-items: center;
+
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0rem;
+}
+
+.price-head {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.price-content {
+    color: #A7A7A7;
+    flex-direction: column;
+    
+}
+
+.facilities-head {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.facility-content {
+    flex-direction: column;
+}
+
+.facility {
+
+    display: flex;
+    align-items: center;    
+}
+
+.facility-text {
+    padding: 0rem 4rem 0rem 0rem;
+}
+
+.message-owner {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0rem;
+}
+
+.message-head {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.message-content {
+    color: #A7A7A7;
+    flex-direction: column;
+    
+}
+
+.details-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.avail-max-row {
+    display: flex;
+}
+
+.availability {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 3rem;
+}
+
+.availability-head {
+    display: flex;
+    font-weight: bold;
+    font-size: 1.5rem;
+    align-items: center;    
+}
+
+.availability-content {
+    color: #A7A7A7;
+    flex-direction: column;
+    
+}
+.max-count {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 3rem; 
+}
+
+.max-head {
+    display: flex;
+    font-weight: bold;
+    font-size: 1.5rem;
+    align-items: center;    
+}
+
+.max-content {
+    color: #A7A7A7;
+    flex-direction: column;
+    
+}
+
+.overall-ratings {
+    display: flex;
+    flex-direction: column;
+    margin: 3rem; 
+}
+
+.ratings-head {
+    display: flex;
+    font-weight: bold;
+    font-size: 1.5rem;
+    align-items: center;    
+}
+
+.overall-content {
+    color: #A7A7A7;
+    flex-direction: column;
+    
+}
+
+.reviews {
+    display: flex;
+    flex-direction: column;
+    margin: 3rem;
+}
+
+.reviews-head {
+    display: flex;
+    font-weight: bold;
+    font-size: 1.5rem;
+    align-items: center;    
+}
+.review-content {
+    display: flex;
+}
+
+.review {
+    font-size: 0.8rem;
+}
+
+.review-bottom {
+    width: 2rem;
+}
+
+.star {
+    width: 15px;
+}
